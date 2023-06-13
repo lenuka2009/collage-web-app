@@ -1,14 +1,24 @@
-#start-btn
+#result1
 {
-    width: 60%;
-} 
-#camera
-{
-    width:360px;
-    height: 250px;
-    border:1px solid grey;
+width: 30%;
 }
-#textbox
+
+#result2
 {
-    width: 300px;
+width: 30%;
+}
+
+#result3
+{
+width: 30%;
+}
+
+.copy_right_footer {
+    position: fixed;
+    bottom: 0;
+    text-align:center;
+}
+
+img:hover{
+    border-radius: 140px;
 }

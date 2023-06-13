@@ -9,48 +9,44 @@
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/webcamjs/1.0.26/webcam.js" type="text/javascript"></script>
 
-    <link href="style.css"rel="stylesheet">
-
 </head>
 
 <body>
-<div class="container">
     <center>
-        <h1>Collage Web App
-
-        </h1>
+        <h1>Collage Web App </h1>
         <hr>
-        <h4 style="color: red;">Please press allow as soon as popup comes. After you give a voice <command></h4>
+        <h4>Please press allow as soon as popup comes. After you give a voice command</h4>
 
-<div class="form-group">
-    <h3>say "selfie"for taking your selfies and to make a Collage</h3>
+        <h3>Say "selfie" for Taking your selfie to make a Collage</h3>
 
-    <button class="btn btn-primary" onclick="start()" >start</button>
-    <p>Press the start button</p>
-<label>your webcam : </label>
+        <button class="btn btn-lg btn-primary" onclick="start()">Start</button>
+        <h4>Press the Start button</h4>
 
-<br>
+        <label>Your webcam : </label>
+        <div id="camera"></div>
 
-<label>Your Selfie Will Display Here: </label>
-<div id="resultRow">
-    <div id="result1">
-        <img src="F 1.jfif" style="width: 30%;">
-    </div>
+        <br>
 
-    <div id="result2">
-        <img src="F 2.jfif" style="width: 30%;">
-    </div>
+        <label>Your selife Will Display Here: </label>
+        <br>
+        <div id="resultRow">
+            <div id="result1" class="column">
+                <img src="https://unsplash.com/photos/F3Dde_9thd8/download?ixid=MnwxMjA3fDB8MXxhbGx8fHx8fHx8fHwxNjQzOTUxMTU0&force=true"style="width: 30%">
+            </div>
+            <div id="result2" class="column">
+                <img src="https://unsplash.com/photos/dozkVhDyvhQ/download?force=true"style="width: 30%">
+            </div>
 
-    <div id="result3">
-        <img src="F 3.jfif" style="width: 30%;">
-    </div>
-</div>
-
-
-</div>
-
+            <div id="result3" class="column">
+                <img src="https://unsplash.com/photos/N10auyEVst8/download?ixid=MnwxMjA3fDB8MXxhbGx8fHx8fHx8fHwxNjQzOTUxMjA2&force=true"style="width: 30%">
+            </div>
+        </div>
+        <div class="copy_right_footer">
+            Developed by - Lenuka
+        </div>
     </center>
-</div>
+
+    <script src="main.js"></script>
 </body>
 
 </html>
