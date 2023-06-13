@@ -22,3 +22,14 @@ width: 30%;
 img:hover{
     border-radius: 140px;
 }
+
+img{
+    width: 600px;
+    height: 400px;
+}
+
+.column{
+    display: inline;
+    padding: 10px;
+}
+
